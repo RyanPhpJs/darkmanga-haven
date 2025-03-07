@@ -14,6 +14,7 @@ export interface MangaType {
     title: string;
     pages: string[];
     releaseDate: string;
+    language?: string; // Add language property
   }[];
   isFeatured?: boolean;
   isNew?: boolean;
@@ -38,6 +39,31 @@ export const mangaData: MangaType[] = [
         number: 1,
         title: 'The Beginning',
         releaseDate: '2023-01-15',
+        language: 'English',
+        pages: [
+          'https://images.unsplash.com/photo-1578632292335-df3abbb0d586?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGFuaW1lfGVufDB8fDB8fHww',
+          'https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGFuaW1lfGVufDB8fDB8fHww',
+          'https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGFuaW1lfGVufDB8fDB8fHww'
+        ]
+      },
+      {
+        id: '1-1-pt',
+        number: 1,
+        title: 'O Início',
+        releaseDate: '2023-01-18',
+        language: 'Portuguese',
+        pages: [
+          'https://images.unsplash.com/photo-1578632292335-df3abbb0d586?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGFuaW1lfGVufDB8fDB8fHww',
+          'https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGFuaW1lfGVufDB8fDB8fHww',
+          'https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGFuaW1lfGVufDB8fDB8fHww'
+        ]
+      },
+      {
+        id: '1-1-es',
+        number: 1,
+        title: 'El Comienzo',
+        releaseDate: '2023-01-20',
+        language: 'Spanish',
         pages: [
           'https://images.unsplash.com/photo-1578632292335-df3abbb0d586?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGFuaW1lfGVufDB8fDB8fHww',
           'https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGFuaW1lfGVufDB8fDB8fHww',
@@ -49,6 +75,19 @@ export const mangaData: MangaType[] = [
         number: 2,
         title: 'The Master',
         releaseDate: '2023-01-22',
+        language: 'English',
+        pages: [
+          'https://images.unsplash.com/photo-1580477667995-2b94f01c9516?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGFuaW1lfGVufDB8fDB8fHww',
+          'https://images.unsplash.com/photo-1560972550-aba3456b5564?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fGFuaW1lfGVufDB8fDB8fHww',
+          'https://images.unsplash.com/photo-1637672313478-419cac292e6b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fGFuaW1lfGVufDB8fDB8fHww'
+        ]
+      },
+      {
+        id: '1-2-pt',
+        number: 2,
+        title: 'O Mestre',
+        releaseDate: '2023-01-25',
+        language: 'Portuguese',
         pages: [
           'https://images.unsplash.com/photo-1580477667995-2b94f01c9516?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGFuaW1lfGVufDB8fDB8fHww',
           'https://images.unsplash.com/photo-1560972550-aba3456b5564?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fGFuaW1lfGVufDB8fDB8fHww',
