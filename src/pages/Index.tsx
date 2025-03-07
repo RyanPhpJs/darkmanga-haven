@@ -42,7 +42,7 @@ const Index = () => {
               <MangaCard 
                 key={manga.id} 
                 manga={manga} 
-                className={`animate-fade-up delay-[${index * 100}ms]`}
+                className={`animate-fade-up delay-[${100 * index}ms]`}
               />
             ))}
           </div>
@@ -61,7 +61,7 @@ const Index = () => {
               <MangaCard 
                 key={manga.id} 
                 manga={manga}
-                className={`animate-fade-up delay-[${index * 100}ms]`}
+                className={`animate-fade-up delay-[${100 * index}ms]`}
               />
             ))}
           </div>
