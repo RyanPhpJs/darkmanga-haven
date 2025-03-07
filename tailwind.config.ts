@@ -102,7 +102,7 @@ export default {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
 				'fade-in': 'fade-in 0.5s ease-out',
-				'fade-up': 'fade-up 0.5s ease-out',
+				'fade-up': 'fade-up 0.5s ease-out forwards',
 				'scale-in': 'scale-in 0.3s ease-out',
 				'slide-left': 'slide-left 0.3s ease-out',
 				'slide-right': 'slide-right 0.3s ease-out'
